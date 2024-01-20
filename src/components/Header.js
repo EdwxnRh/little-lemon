@@ -15,7 +15,10 @@ export default function Header() {
             We are a family owned Mediterranean restaurant, focused on
             traditional recipes served with a modern twist.
           </p>
-          <button className="bg-white text-secondary px-4 py-2 rounded-2xl flex justify-center items-center w-full gap-2 font-extrabold uppercase mt-4 group">
+          <a
+            href="/reservation"
+            className="bg-white text-secondary px-4 py-2 rounded-2xl flex justify-center items-center w-full gap-2 font-extrabold uppercase mt-4 group"
+          >
             <p className="group-hover:scale-105 transition-all">Book a table</p>
             <svg
               width="16"
@@ -30,7 +33,7 @@ export default function Header() {
                 fill="#495E57"
               />
             </svg>
-          </button>
+          </a>
         </div>
       </section>
     </header>
